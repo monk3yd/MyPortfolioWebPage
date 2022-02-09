@@ -1,0 +1,21 @@
+/* Color Pallete : #F0A500, #334756 #082032 #000000 #FFFFFF */
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #000000;
+}
+
+.navLink {
+  color: #FFFFFF;
+}
+
+/* About */
+/* Skills */
+.progress {
+  color: #000000;
+}
