@@ -1,20 +1,64 @@
 /* Color Pallete : #F0A500, #334756 #082032 #000000 #FFFFFF */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: #000000;
   color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
 }
 
-/* Navbar */
-.navbar-custom {
-  background-color: #000000;
+h1 {
+  font-size: 3.6rem;
 }
 
-.navLink {
+/* NAVBAR */
+#mainNav {
+  display: flex;
+  background-color: #082032;
+  min-height: 10vh;
+  padding: 2rem 8rem;
+  text-align: center;
+}
+
+.navbar-brand, .nav-link {
   color: #FFFFFF;
 }
 
-/* About */
+.navbar-nav {
+  margin: auto 0 auto auto;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  margin: 0 3.6rem;
+}
+
+/* HOME */
+#home {
+  background: #F0A500;
+  min-height: 90vh;
+}
+
+.home-container {
+
+}
+
+/* ABOUT */
+/* #about {
+  height: 90vh;
+} */
+
 /* Skills */
 .progress {
   color: #000000;

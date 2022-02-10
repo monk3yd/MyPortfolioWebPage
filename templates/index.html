@@ -12,7 +12,7 @@
 {% block content %}
 <!-- HOME SECTION-->
 <section id="home" class="home-section">
-  <div class="container-fluid">
+  <div class="home-container container-fluid">
     <p>I'm many things... a <strong>rookie programmer.</strong></p>
   </div>
 </section>
@@ -343,7 +343,9 @@
         <div class="col-md-12 my-3">
           <textarea class="form-control" id=InputTextArea name="content" rows="3" placeholder="Message"></textarea>
         </div>
-        <button type="submit" class="btn btn-outline-warning" name="button">Submit</button>
+        <div class="d-grid col-12" >
+          <button type="submit" class="btn btn-outline-warning" name="button">Submit</button>
+        </div>
       </form>
     </div>
 
