@@ -49,6 +49,22 @@ h1 {
   margin: 0 3.6rem;
 }
 
+@media (max-width: 992px) {
+  h1 {
+    color: red;
+  }
+
+
+  /* .navbar-nav {
+    border: 2px solid rgba(255, 255, 255, 0.2);
+  } */
+
+  /* .nav-link {
+    margin-left: 0;
+    padding: 0;
+  } */
+}
+
 /* HOME */
 #home {
   background: #F0A500;
