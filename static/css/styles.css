@@ -26,12 +26,18 @@ h1 {
   display: flex;
   background-color: #082032;
   min-height: 10vh;
-  padding: 2rem 8rem;
+  margin: 0;
+  padding: 2rem 12rem;
   text-align: center;
+}
+
+.nav-container {
+  padding: 0;
 }
 
 .navbar-brand, .nav-link {
   color: #FFFFFF;
+  margin-right: 3rem;
 }
 
 .navbar-nav {
@@ -47,11 +53,13 @@ h1 {
 /* HOME */
 #home {
   background: #F0A500;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
   min-height: 90vh;
 }
 
 .home-container {
-
+  padding: 0 12rem;
 }
 
 /* ABOUT */
