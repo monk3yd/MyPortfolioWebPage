@@ -50,19 +50,22 @@ h1 {
 }
 
 @media (max-width: 992px) {
-  h1 {
+  /* h1 {
     color: red;
+  } */
+
+  .navbar-nav {
+    border: 2px solid rgba(255, 255, 255, 0.2);
   }
 
+  .nav-item {
+    text-align: left;
+  }
 
-  /* .navbar-nav {
-    border: 2px solid rgba(255, 255, 255, 0.2);
-  } */
-
-  /* .nav-link {
-    margin-left: 0;
-    padding: 0;
-  } */
+  .nav-link {
+    margin: 0 2rem;
+    padding: 2rem;
+  }
 }
 
 /* HOME */
