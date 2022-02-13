@@ -6,3 +6,4 @@ from_0
 forms
 Readme.txt
 changelog.txt
+/templates/portfolio-details.html

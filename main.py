@@ -8,5 +8,9 @@ def home():
     return render_template("index.html")
 
 
+@app.route("/portfolio-details")
+def portfolio():
+    return render_template("portfolio-details.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
