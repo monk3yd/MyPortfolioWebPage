@@ -8,7 +8,10 @@
     <h1><a href="{{ url_for('home') }}">Juan Gajardo</a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="mr-auto"><img src="static/img/logo.png" alt="" class="img-fluid"></a> -->
-    <h2>I'm many things... <span>a programmer</span>.</h2>
+    <div class="typing-container">
+      <h2>I'm many things... a <span class="typed-text"></span><span class="cursor">|</span></h2>
+    </div>
+
 
     <nav id="navbar" class="navbar">
       <ul>
@@ -25,7 +28,7 @@
     <div class="social-links">
       <a href="https://www.twitter.com/jegajardog" class="twitter"><i class="bi bi-twitter"></i></a>
       <a href="https://www.facebook.com/jegajardog" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://www.instagram.com" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.instagram.com/jegajardog" class="instagram"><i class="bi bi-instagram"></i></a>
       <a href="https://linkedin.com/in/juan-esteban-gajardo-ba846811b" class="linkedin"><i class="bi bi-linkedin"></i></a>
     </div>
 
@@ -193,35 +196,23 @@
     <div class="row">
       <div class="col-lg-3 col-md-4">
         <div class="icon-box">
-          <img class="icon" src="{{ url_for('static', filename='img/jeep.png') }}" alt="jeep-icon">
-          <h3>Overland</h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          <img class="icon" src="{{ url_for('static', filename='img/fighting.png') }}" alt="karate-icon">
-          <h3>Karate</h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-        <div class="icon-box">
-          <img class="icon" src="{{ url_for('static', filename='img/basketball.png') }}" alt="basketball-icon">
-          <h3>Basketball</h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-        <div class="icon-box">
           <img class="icon" src="{{ url_for('static', filename='img/python.png') }}" alt="python-icon">
           <h3>Programming</h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4">
+      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
         <div class="icon-box">
           <img class="icon" src="{{ url_for('static', filename='img/hacker.png') }}" alt="hacker-icon">
           <h3>Hacking</h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 mt-4">
+      <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+        <div class="icon-box">
+          <img class="icon" src="{{ url_for('static', filename='img/jeep.png') }}" alt="jeep-icon">
+          <h3>Overland</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
         <div class="icon-box">
           <img class="icon" src="{{ url_for('static', filename='img/earth.png') }}" alt="earth-icon">
           <h3>Travel</h3>
@@ -229,37 +220,49 @@
       </div>
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+          <img class="icon" src="{{ url_for('static', filename='img/fighting.png') }}" alt="karate-icon">
+          <h3>Karate</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <img class="icon" src="{{ url_for('static', filename='img/basketball.png') }}" alt="basketball-icon">
+          <h3>Basketball</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <img class="icon" src="{{ url_for('static', filename='img/judo.png') }}" alt="judo-icon">
           <h3>Judo</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-          <h3>Blockchain</h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-anchor-line" style="color: #b2904f;"></i>
-          <h3>AI & Machine Learning</h3>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 mt-4">
-        <div class="icon-box">
-          <i class="ri-disc-line" style="color: #b20969;"></i>
+          <img class="icon" src="{{ url_for('static', filename='img/gaming.png') }}" alt="gaming-icon">
           <h3>Gaming</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="ri-base-station-line" style="color: #ff5828;"></i>
+          <img class="icon" src="{{ url_for('static', filename='img/ai.png') }}" alt="ai-icon">
+          <h3>AI & Machine Learning</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <img class="icon" src="{{ url_for('static', filename='img/blockchain.png') }}" alt="blockchain-icon">
+          <h3>Blockchain</h3>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <img class="icon" src="{{ url_for('static', filename='img/montana.png') }}" alt="anime-icon">
           <h3>Anime</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 mt-4">
         <div class="icon-box">
-          <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+          <img class="icon" src="{{ url_for('static', filename='img/entrepeneur.png') }}" alt="entrepeneur-icon">
           <h3>Entrepeneurship</h3>
         </div>
       </div>

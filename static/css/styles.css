@@ -338,6 +338,34 @@ section .container {
   color: #fff;
 }
 
+/* Typing Effect */
+.typing-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.typing-container h2 {
+  margin-bottom: 0;
+  letter-spacing: 0.1rem;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s linear infinite alternate;
+}
+
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
