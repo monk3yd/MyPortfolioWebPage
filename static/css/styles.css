@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #F0A500;
+  /* border-bottom: 2px solid #F0A500; */
   padding-bottom: 6px;
 }
 #header img {
@@ -348,6 +348,10 @@ section .container {
 .typing-container h2 {
   margin-bottom: 0;
   letter-spacing: 0.1rem;
+}
+
+.typed-text {
+  border-bottom: 2px solid #F0A500;
 }
 
 .cursor {
