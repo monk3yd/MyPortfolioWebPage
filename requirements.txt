@@ -1,9 +1,9 @@
 certifi==2021.10.8
 click==8.0.3
-Flask @ file:///tmp/build/80754af9/flask_1634118196080/work
+Flask==2.0.2
 Flask-WTF==1.0.0
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1635780242639/work
-MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621523467000/work
-Werkzeug @ file:///tmp/build/80754af9/werkzeug_1635505089296/work
+itsdangerous==2.0.1
+Jinja2==3.0.2
+MarkupSafe==2.0.1
+Werkzeug==2.0.2
 WTForms==3.0.1
