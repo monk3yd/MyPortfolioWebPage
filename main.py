@@ -1,7 +1,7 @@
 import os
 import smtplib
 
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for, redirect
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, EmailField
 from wtforms.validators import DataRequired
@@ -35,8 +35,9 @@ def home():
             connection.sendmail(
                 from_addr=WEB_EMAIL,
                 to_addrs=MY_EMAIL,
-                msg=f"Subject: {form.subject.data}\n\n{form.message.data}"
+                msg=f"Subject: {form.subject.data}\n\nEmail: {form.email.data}. Message: {form.message.data}"
             )
+        return redirect(url_for("home"))
     return render_template("index.html", form=form)
 
 
