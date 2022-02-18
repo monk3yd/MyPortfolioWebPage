@@ -265,6 +265,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.2);
+  z-index: 999999999;
 }
 .navbar-mobile li {
   padding: 12px 20px;
