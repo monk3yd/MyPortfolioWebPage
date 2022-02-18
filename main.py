@@ -14,6 +14,7 @@ WEB_EMAIL = "monk3yd.thelab@gmail.com"  # WebApp Email
 WEB_PWD = "raftel12345"
 MY_EMAIL = "monk3yd.thelab@yahoo.com"  # My Personal Email
 
+
 class ContactForm(FlaskForm):
     name = StringField(label="Name", validators=[DataRequired()], render_kw={"placeholder": "Your Name"})
     email = EmailField(label="Email", validators=[DataRequired()], render_kw={"placeholder": "Your Email"})
@@ -24,6 +25,7 @@ class ContactForm(FlaskForm):
 
 app = Flask(__name__)
 app.secret_key = SECRET_KEY
+
 
 @app.route("/", methods=["GET", "POST"])
 def home():
