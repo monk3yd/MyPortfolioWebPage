@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
-  z-index: 99999999;
+  z-index: 999;
   margin-top: 0;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile ul {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 55px;
   right: 15px;
   bottom: 45px;
@@ -265,7 +265,6 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   transition: 0.3s;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  z-index: 999999999;
 }
 .navbar-mobile li {
   padding: 12px 20px;
